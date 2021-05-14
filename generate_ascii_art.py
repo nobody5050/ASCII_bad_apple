@@ -2,9 +2,9 @@ from PIL import Image
 
 video_length = 218
 
-ASCII_CHARS = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`\'. '
+ASCII_CHARS = '⬛⬜'
 
-def scale_image(image, new_width=100, new_height=30):
+def scale_image(image, new_width=20, new_height=20):
     """Resizes an image preserving the aspect ratio.
     """
     (original_width, original_height) = image.size
