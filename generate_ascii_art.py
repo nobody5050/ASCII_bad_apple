@@ -5,7 +5,7 @@ video_length = 218
 ASCII_CHARS = '⬜️⬛️'
 
 
-def scale_image(image, new_width=100, new_height=30):
+def scale_image(image, new_width=20, new_height=6):
 	"""Resizes an image preserving the aspect ratio.
     """
 	(original_width, original_height) = image.size
