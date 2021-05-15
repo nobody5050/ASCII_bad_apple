@@ -1,0 +1,2 @@
+language = "bash"
+run = "python generate_ascii_art.py"
