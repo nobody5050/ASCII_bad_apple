@@ -1,2 +1,2 @@
 language = "bash"
-run = "python generate_ascii_art.py"
+run = "pip install opencv-python && python generate_ascii_art.py"
