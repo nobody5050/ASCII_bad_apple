@@ -2,7 +2,7 @@ from PIL import Image
 
 video_length = 218
 
-ASCII_CHARS = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`\'. '
+ASCII_CHARS = '⬜️⬛️'
 
 
 def scale_image(image, new_width=100, new_height=30):
@@ -21,7 +21,7 @@ def convert_to_grayscale(image):
 	return image.convert('L')
 
 
-def map_pixels_to_ascii_chars(image, range_width=3.69):
+def map_pixels_to_ascii_chars(image, range_width=127.5):
 	"""Maps each pixel to an ascii char based on the range
     in which it lies.
 
