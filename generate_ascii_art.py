@@ -82,5 +82,6 @@ if __name__ == '__main__':
 		time_count = time_count + 100
 
 	f = open('play.txt', 'w')
+	print(len('SPLIT'.join(frames)))
 	f.write('SPLIT'.join(frames))
 	f.close()
